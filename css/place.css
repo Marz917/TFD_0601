@@ -105,3 +105,23 @@ select .option{
 
 
     }
+
+
+    @media screen and (min-width: 576px) and (max-width: 1199.98px){
+        .section{
+            width: 70%;
+            /* margin: 0 auto; */
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            /* flex-direction: column; */
+        }
+
+        .card img{
+            width: 80%;
+        
+        }
+
+        .card{
+        margin: 0 auto;
+        }
+    }
